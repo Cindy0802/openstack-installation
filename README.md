@@ -1,6 +1,6 @@
 # Ubuntu22.04使用devstack部署OpenStack（All-In-One)
 
-​	<font color="gray">初学OpenStack，配置了快一周，起初用Ubuntu18.04尝试n次，大概因为OpenStack已更新到最新的分支，每次执行安装脚本总有各种依赖冲突、版本不匹配等等的报错。遂换用Ubuntu22.04，~~什么叫纵享丝滑！~~安装部署的过程中再没有上述问题，可能有时候会因为网络问题卡住一下，解决一些小问题，但是整体过程相对于灰头土脸的前半周来说，太顺利辣！遂记录。</font>
+​	<font color="gray">初学OpenStack，配置了快一周，起初用Ubuntu18.04尝试n次，大概因为OpenStack已更新到最新的分支，每次执行安装脚本总有各种依赖冲突、版本不匹配等等的报错。遂换用Ubuntu22.04，~~什么叫纵享丝滑！~~ 安装部署的过程中再没有上述问题，可能有时候会因为网络问题卡住一下，解决一些小问题，但是整体过程相对于灰头土脸的前半周来说，太顺利辣！遂记录。</font>
 
 ## 0.虚拟机配置
 
@@ -8,7 +8,7 @@
 
 <center>this one:</center>
 
-![image-20230922102343294](C:\Users\Cindy\AppData\Roaming\Typora\typora-user-images\image-20230922102343294.png)
+![image-20230922102343294](https://github.com/Cindy0802/openstack-installation/blob/main/image-20230922102343294.png)
 
 ### 内存：8GB
 
@@ -16,7 +16,7 @@
 
 一开始硬盘跟着默认设的20GB，安装到一半磁盘容量不足，蛮麻烦的。最好一开始就找个容量宽裕一点的磁盘，分配多一点存储空间。
 
-![image-20230922105519208](C:\Users\Cindy\AppData\Roaming\Typora\typora-user-images\image-20230922105519208.png)
+![image-20230922105519208](https://github.com/Cindy0802/openstack-installation/blob/main/image-20230922105519208.png)
 
 ## 1.部署前准备
 
@@ -198,9 +198,9 @@ openstack的登录地址，以及用户名和密码看这里↓
 
 默认有个admin用户，密码就是前面在local.conf配置时填的
 
-![image-20230922130650874](C:\Users\Cindy\AppData\Roaming\Typora\typora-user-images\image-20230922130650874.png)
+![image-20230922130650874](https://github.com/Cindy0802/openstack-installation/blob/main/image-20230922130650874.png)
 
-![image-20230922130713185](C:\Users\Cindy\AppData\Roaming\Typora\typora-user-images\image-20230922130713185.png)
+![image-20230922130713185](https://github.com/Cindy0802/openstack-installation/blob/main/image-20230922130713185.png)
 
 最后记得执行`./unstack.sh`停止服务。
 
